@@ -1,0 +1,63 @@
+body {
+  /* IE10+ */
+  background-image: -ms-linear-gradient(left, #00A960 0%, #30FFF1 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #00A960 0%, #30FFF1 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #00A960 0%, #30FFF1 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #00A960), color-stop(100, #30FFF1));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #00A960 0%, #30FFF1 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to right, #00A960 0%, #30FFF1 100%);
+  margin: 0;
+}
+
+.box {
+  width: 340px;
+  height: 440px;
+  background: #e6e6e6;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+
+button {
+  top: 1000px;
+  z-index: 111;
+  cursor: pointer;
+  appearance: none;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  background-color: #00a960;
+  box-shadow: 0 0 40px -10px #000;
+  color: white;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.boxbox {
+  height: 250px;
+}
